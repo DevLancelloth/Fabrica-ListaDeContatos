@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilização do corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* Estilização do título */
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Container dos botões e input de pesquisa */
+.botoes {
+  margin-bottom: 2rem;
+}
+
+/* Estilização do input de pesquisa */
+.input-pesquisa {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black; /* Define a cor do texto para preto */
+  background-color: white; /* Define a cor de fundo para branco, se necessário */
+}
+
+/* Estilização do botão de adicionar */
+.botao-adicionar {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-adicionar:hover {
+  background-color: #21a1f1;
+}
+
+/* Estilização dos dados */
+.dados {
+  background-color: #282c34;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
